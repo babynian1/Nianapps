@@ -7,7 +7,7 @@ func main() {
 	l := 14
 	t := 12
 
-	luas := 1 / 2 * p * t
+	luas := 1 / 2 * t * (p + l)
 
 	fmt.Println("P : ", p)
 	fmt.Println("l : ", l)
